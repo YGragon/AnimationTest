@@ -39,6 +39,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="动画集合"/>
+        <Button
+            android:id="@+id/btn_change_btn_width_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="改变宽度的属性动画"/>
     </LinearLayout>
 
 </LinearLayout>
