@@ -17,9 +17,9 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="属性动画 Demo"/>
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_anim_nine"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools"/>
+            android:title="lottie 动画"/>
     </group>
 
     <item android:title="Communicate">

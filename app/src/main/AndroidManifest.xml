@@ -25,6 +25,8 @@
         </activity>
         <activity android:name=".AnimObjectActivity">
         </activity>
+        <activity android:name=".AnimNineActivity">
+        </activity>
     </application>
 
 </manifest>

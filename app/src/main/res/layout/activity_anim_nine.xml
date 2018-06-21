@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".AnimNineActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/like_anim_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:lottie_fileName="like_icon.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/empty_anim_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:lottie_fileName="empty_status.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/success_anim_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:lottie_fileName="download_icon_success.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/loading_anim_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:lottie_fileName="loading.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/error_anim_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:lottie_fileName="error_message.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
