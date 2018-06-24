@@ -27,6 +27,7 @@ dependencies {
     compile 'com.daimajia.easing:library:2.0@aar'
     compile 'com.daimajia.androidanimations:library:2.3@aar'
     compile 'jp.wasabeef:recyclerview-animators:2.3.0'
+    compile 'com.oguzdev:CircularFloatingActionMenu:1.0.2'
     compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
